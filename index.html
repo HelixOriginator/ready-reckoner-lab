@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ready Reckoner Lab - Quick calculation tools, reference guides, and practical utilities for instant problem-solving">
+    <meta name="keywords" content="ready reckoner, calculator, conversion tool, mathematical formulas, financial calculator">
+    <title>Ready Reckoner Idea Lab | Quick Reference Tools & Calculators</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #ffd700;
+            min-height: 100vh;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .badge {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b6b, #ffd700);
+            color: #000;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 0.9em;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+            }
+            50% {
+                box-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
+            }
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 30px 0;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+            animation: glow 2s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% {
+                text-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+            }
+            50% {
+                text-shadow: 0 0 30px rgba(255, 215, 0, 1), 0 0 40px rgba(255, 215, 0, 0.6);
+            }
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #ffed4e;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #000;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 25px rgba(255, 215, 0, 0.6);
+            margin: 10px;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 35px rgba(255, 215, 0, 0.9);
+            background: linear-gradient(45deg, #ffed4e, #ffd700);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+        }
+
+        .feature-card {
+            background: rgba(26, 26, 46, 0.8);
+            padding: 30px;
+            border-radius: 15px;
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: #ffd700;
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+            display: block;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+        }
+
+        .feature-card h3 {
+            color: #ffd700;
+            margin-bottom: 10px;
+            font-size: 1.4em;
+        }
+
+        .feature-card p {
+            color: #ffed4e;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding: 30px 0;
+            border-top: 2px solid rgba(255, 215, 0, 0.3);
+        }
+
+        .author {
+            color: #ffed4e;
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+
+        .author strong {
+            color: #ffd700;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-button {
+                display: block;
+                margin: 10px auto;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="badge">
+                🌟 World's First 21+ Evidence-Based Ready Reckoners 🌟
+            </div>
+            <h1>Ready Reckoner Idea Lab</h1>
+            <p class="subtitle">Quick Reference Tools & Calculators for Instant Problem-Solving</p>
+            <a href="https://helixoriginator.github.io/Ready-Reckoner/" class="cta-button" target="_blank">
+                🚀 Explore Ready Reckoners
+            </a>
+        </header>
+
+        <section class="features">
+            <div class="feature-card">
+                <span class="feature-icon">🔢</span>
+                <h3>Instant Calculators</h3>
+                <p>Quick access to mathematical and financial calculation tools for rapid computations and analysis.</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">📊</span>
+                <h3>Reference Guides</h3>
+                <p>Essential formulas and reference tables at your fingertips for immediate access to critical information.</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">🔄</span>
+                <h3>Unit Conversions</h3>
+                <p>Convert between different units seamlessly with accurate and reliable conversion tools.</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">⚡</span>
+                <h3>Quick Results</h3>
+                <p>Get instant results for your calculations without complex procedures or lengthy processes.</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">💼</span>
+                <h3>Professional Tools</h3>
+                <p>Purpose-built utilities for professionals, students, and researchers requiring precision.</p>
+            </div>
+
+            <div class="feature-card">
+                <span class="feature-icon">📱</span>
+                <h3>Mobile Friendly</h3>
+                <p>Access all tools from any device, anywhere, with a fully responsive design.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p class="author">
+                Created by <strong>Kallol Chakrabarti</strong><br>
+                Global Independent Researcher
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
